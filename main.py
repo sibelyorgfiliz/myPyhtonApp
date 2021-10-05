@@ -33,3 +33,8 @@ print(hello(5))
 multiline
 comment
 """
+print("Has name minder than 5 letters? :", len(name)>=5)
+print(name.replace("E", "_"))
+print (name.count("n"))
+print("\"land\" in name? ", "land" in name)
+
