@@ -19,3 +19,17 @@ print(type(PI))
 print(type(isTrue))
 print(type(day))
 print(type(piNu))
+
+####
+isFull : bool = True
+print("isFull--> ", isFull)
+
+def hello(number) :
+    return number+5
+print(hello(5))
+
+#
+"""
+multiline
+comment
+"""
