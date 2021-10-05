@@ -37,4 +37,21 @@ print("Has name minder than 5 letters? :", len(name)>=5)
 print(name.replace("E", "_"))
 print (name.count("n"))
 print("\"land\" in name? ", "land" in name)
+#####
+#myName = "Sibel"
+#message = """
+#Hello, how are you?
+#Your name was {}, right?
+#Do you remember me {} ?
+#"""
+#print(message.format(myName, myName))
+
+myName = "Sibel"
+message = f"""
+Hello, how are you? 
+Your name was {myName}, right?
+Do you remember me {myName} ?
+"""
+print(message)
+
 
