@@ -21,6 +21,8 @@ print(type(day))
 print(type(piNu))
 
 ####
+
+
 isFull : bool = True
 print("isFull--> ", isFull)
 
@@ -54,4 +56,22 @@ Do you remember me {myName} ?
 """
 print(message)
 
+#
+def repeatIt(msg, count):
+    msg=msg+" "
+    print(msg * count)
+repeatIt("sibel", 3)
+##
 
+#Variadic parameters
+def convertToTheList(*params):
+    list = []
+    for param in params:
+        list.append(param)
+    return list
+
+result = convertToTheList(10, 20, 30, "hi")
+print(result)
+i = 1
+result = convertToTheList(i, i*2, i*5, i*10)
+print(result)
